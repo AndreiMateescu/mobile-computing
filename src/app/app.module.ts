@@ -14,8 +14,8 @@ import { PlacePage } from './place/place.page';
 import { SetLocationPage } from './set-location/set-location.page';
 
 @NgModule({
-  declarations: [AppComponent, HomePage, AddPlacePage, PlacePage, SetLocationPage],
-  entryComponents: [AppComponent, HomePage, AddPlacePage, PlacePage, SetLocationPage],
+  declarations: [AppComponent, AddPlacePage, PlacePage, SetLocationPage],
+  entryComponents: [AppComponent, AddPlacePage, PlacePage, SetLocationPage],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
     StatusBar,
